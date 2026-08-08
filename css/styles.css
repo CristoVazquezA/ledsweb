@@ -1,0 +1,92 @@
+.casa{
+    width: 150%; /*ancho de la imagen*/
+    height: 140%; /*alto de la imagen*/
+    display: block; /* Para que la imagen se comporte como un bloque */
+}
+
+.contenedor{
+    position: relative; /* Para que los elementos hijos se posicionen relativamente a este contenedor */
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+}
+
+.foco1{
+    position:absolute;
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    top: 160px; /* Ajusta la posición desde arriba en pixeles */
+    left: 100px; /* distancia de la izquierda en pixeles */
+    cursor: pointer; /* Para poder hacer click en la imagen */
+    
+}
+
+.foco2{
+    position:absolute;
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    top: 160px; /* Ajusta la posición desde arriba en pixeles */
+    left: 370px; /* distancia de la izquierda en pixeles */
+    cursor: pointer; /* Para poder hacer click en la imagen */
+    
+}
+
+.foco3{
+    position:absolute;
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    top: 350px; /* Ajusta la posición desde arriba en pixeles */
+    left: 100px; /* distancia de la izquierda en pixeles */
+    cursor: pointer; /* Para poder hacer click en la imagen */
+}
+
+.foco4{
+    position:absolute;
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    top: 350px; /* Ajusta la posición desde arriba en pixeles */
+    left: 400px; /* distancia de la izquierda en pixeles */
+    cursor: pointer; /* Para poder hacer click en la imagen */
+}
+
+.reloj{
+    font-size: 24px; /* Tamaño de la fuente del reloj */
+}
+
+.autor{
+    position: fixed; /* Para que el autor se mantenga en la esquina inferior derecha */
+    bottom: 140px; /* Distancia desde la parte inferior */
+    right: 750px; /* Distancia desde la parte derecha */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+.btnfocos {
+    position: absolute; /* Para posicionar el botón en relación al contenedor */
+    top: 10px; /* Distancia desde la parte superior */
+    right: -400px; /* Distancia desde la parte derecha */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    font-weight: bold; /* Peso de la fuente del botón */
+    background-color: #28a745; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.salir{
+    position:absolute;
+    top: 70px; /* Distancia desde la parte superior */
+    right: -300px; /* Distancia desde la parte derecha */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    font-weight: bold; /* Peso de la fuente del botón */
+    background-color: #c6757d; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 0px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+
+}

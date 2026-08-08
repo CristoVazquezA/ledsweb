@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="img/led.ico">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/functions.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1 style="text-align: center;">Sistema de control de iluminación LED</h1>
+        <div class="contenedor">
+            <button id="btnfocos" class="btnfocos" onclick="cabiarTodos();">Encender/Apagar Focos</button>
+            <button id="salir" class="salir" onclick="salir();">Salir</button>
+            <img  src="img/planocasa.png" alt="Plano de la casa" class="casa">
+            <img src="img/focoapagado.png" alt="foco apagado" id="foco1" class="foco1" onclick="cambiarFoco(this)">
+            <img src="img/focoapagado.png" alt="foco apagado" id="foco2" class="foco2" onclick="cambiarFoco(this)">
+            <img src="img/focoapagado.png" alt="foco apagado" id="foco3" class="foco3" onclick="cambiarFoco(this)">
+            <img src="img/focoapagado.png" alt="foco apagado" id="foco4" class="foco4" onclick="cambiarFoco(this)">
+            
+        </div>
+
+        <div id="reloj" class="reloj"></div>
+
+        <div id="autor" class="autor">Cristo Javier Vazquez Amarillas</div>
+
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>
