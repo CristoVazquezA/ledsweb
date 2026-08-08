@@ -43,7 +43,7 @@ function cabiarTodos() {
     document.getElementById("foco2").src = imagen;
     document.getElementById("foco3").src = imagen;
     document.getElementById("foco4").src = imagen;
-    const boton = document.getElementById("botonTodos");
+    const boton = document.getElementById("btnfocos");
     if (ledTodosEncedidos) {
         boton.innerHTML = "Apagar todos";
         boton.style.backgroundColor ="#d33545";
